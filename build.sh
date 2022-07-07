@@ -10,8 +10,8 @@ SOCS="t10 t20"
 
 for soc in ${SOCS};do
 
-make distclean
-make isvp_${SOC}_sfcnor
+make clean
+make isvp_${soc}_sfcnor
 make -j 8
 
 cp u-boot-with-spl.bin u-boot-${soc}.bin

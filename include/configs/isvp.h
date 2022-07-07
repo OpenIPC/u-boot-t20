@@ -384,4 +384,7 @@
 #define CONFIG_MBR_P3_TYPE 	fat
 #endif
 
+#define CONFIG_PRODUCTNAME "t10"
+#include <configs/isvp-common.h>
+
 #endif /*__CONFIG_ISVP_H__*/
